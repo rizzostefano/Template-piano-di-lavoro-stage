@@ -11,94 +11,102 @@
 % Data di approvazione del piano da parte del tutor interno; nel formato GG Mese AAAA
 % compilare inserendo al posto di GG 2 cifre per il giorno, e al posto di 
 % AAAA 4 cifre per l'anno
-\newcommand{\dataApprovazione}{Data}
+\newcommand{\dataApprovazione}{28 Febbraio 2022}
 
 % Dati dello Studente
-\newcommand{\nomeStudente}{Pinco}
-\newcommand{\cognomeStudente}{Pallino}
-\newcommand{\matricolaStudente}{1000000}
-\newcommand{\emailStudente}{mail@studenti.unipd.it}
-\newcommand{\telStudente}{+ 39 000 00 00 000}
+\newcommand{\nomeStudente}{Stefano}
+\newcommand{\cognomeStudente}{Rizzo}
+\newcommand{\matricolaStudente}{1193464}
+\newcommand{\emailStudente}{stefano.rizzo.8@studenti.unipd.it}
+\newcommand{\telStudente}{+ 39 342 78 19 582}
 
 % Dati del Tutor Aziendale
-\newcommand{\nomeTutorAziendale}{nomeTutor}
-\newcommand{\cognomeTutorAziendale}{cognomeTutor}
-\newcommand{\emailTutorAziendale}{mail@mail.it}
-\newcommand{\telTutorAziendale}{+ 39 000 00 00 000}
+\newcommand{\nomeTutorAziendale}{Luca}
+\newcommand{\cognomeTutorAziendale}{Bizzaro}
+\newcommand{\emailTutorAziendale}{luca.b@riskapp.it}
+\newcommand{\telTutorAziendale}{+ 39 028 08 97 581}
 \newcommand{\ruoloTutorAziendale}{}
 
 % Dati dell'Azienda
-\newcommand{\ragioneSocAzienda}{Azienda S.p.A}
-\newcommand{\indirizzoAzienda}{Via Roma 1, Roma (RM)}
-\newcommand{\sitoAzienda}{http://example.com/}
-\newcommand{\emailAzienda}{mail@mail.it}
-\newcommand{\partitaIVAAzienda}{P.IVA 12345678999}
+\newcommand{\ragioneSocAzienda}{RiskApp S.r.l.}
+\newcommand{\indirizzoAzienda}{Via Martiri della Libertà 19, 35026 Conselve PD}
+\newcommand{\sitoAzienda}{https://www.riskapp.it/}
+\newcommand{\emailAzienda}{info@riskapp.it}
+\newcommand{\partitaIVAAzienda}{P.IVA IT04914960283}
 
 % Dati del Tutor Interno (Docente)
 \newcommand{\titoloTutorInterno}{Prof.}
-\newcommand{\nomeTutorInterno}{NomeDocente}
-\newcommand{\cognomeTutorInterno}{CognomeDocente}
+\newcommand{\nomeTutorInterno}{Luigi}
+\newcommand{\cognomeTutorInterno}{De Giovanni}
 
 \newcommand{\prospettoSettimanale}{
      % Personalizzare indicando in lista, i vari task settimana per settimana
      % sostituire a XX il totale ore della settimana
     \begin{itemize}
-        \item \textbf{Prima Settimana (XX ore)}
+        \item \textbf{Prima Settimana (40 ore)}
         \begin{itemize}
             \item Incontro con persone coinvolte nel progetto per discutere i requisiti e le richieste
             relativamente al sistema da sviluppare;
             \item Verifica credenziali e strumenti di lavoro assegnati;
             \item Presa visione dell’infrastruttura esistente;
-            \item Formazione sulle tecnologie adottate;
+            \item Inizio della formazione su React e Redux;
         \end{itemize}
-        \item \textbf{Seconda Settimana - Sottotitolo (XX ore)} 
+        \item \textbf{Seconda Settimana - Formazione (40 ore)} 
         \begin{itemize}
-            \item ;
+            \item Studio dell'infrastruttura esistente;
+            \item Studio di React e Redux;
         \end{itemize}
-        \item \textbf{Terza Settimana - Sottotitolo (XX ore)} 
+        \item \textbf{Terza Settimana - Studio e analisi (40 ore)} 
         \begin{itemize}
-            \item ;
+            \item Ricerca di eventuali nuove librerie in grado di apportare miglioramenti all'annotazione e visualizzazione dei file di tipo pdf;
+            \item Studio delle nuove librerie;
+            \item Studio di React e Redux;
         \end{itemize}
-        \item \textbf{Quarta Settimana - Sottotitolo (XX ore)} 
+        \item \textbf{Quarta Settimana - Refactoring (40 ore)} 
         \begin{itemize}
-            \item ;
+            \item implementazione delle nuove librerie;
+            \item revisione ed implementazione di modifiche alle componenti che gestiscono le annotazioni;
         \end{itemize}
-        \item \textbf{Quinta Settimana - Sottotitolo (XX ore)} 
+        \item \textbf{Quinta Settimana - Refactoring (40 ore)} 
         \begin{itemize}
-            \item ;
+            \item implementazione delle modifiche alle componenti del frontend;
+            \item definizione e scrittura dei test;
+            \item produzione documentazione relativa alle modifiche apportate;
         \end{itemize}
-        \item \textbf{Sesta Settimana - Sottotitolo (XX ore)} 
+        \item \textbf{Sesta Settimana - Analisi, progettazione e refactoring UI (40 ore)} 
         \begin{itemize}
-            \item ;
+            \item revisione della UI;
+            \item produzione dei wireframe relativi alla nuova UI;
+            \item inizio del refactoring dei componenti della UI;
         \end{itemize}
-        \item \textbf{Settima Settimana - Sottotitolo (XX ore)} 
+        \item \textbf{Settima Settimana - Refactoring e implementazione nuove componenti(40 ore)} 
         \begin{itemize}
-            \item ;
+            \item implementazione delle modifiche ai componenti della UI;
+            \item progettazione e sviluppo dei componenti necessari per implementare la shortcut relativa alla funzionalità di annotazione;
         \end{itemize}
-        \item \textbf{Ottava Settimana - Conclusione (XX ore)} 
+        \newpage
+        \item \textbf{Ottava Settimana - Conclusione (40 ore)} 
         \begin{itemize}
-            \item ;
+            \item sviluppo dei test relativi ai componenti oggetto di refactoring o scritti ex-novo;
+            \item produzione documentazione relative alle modifiche apportate alla UI ed ai componenti aggiunti;
+            \item Collaudo e verifica del lavoro prodotto;
         \end{itemize}
     \end{itemize}
 }
 
 % Indicare il totale complessivo (deve essere compreso tra le 300 e le 320 ore)
-\newcommand{\totaleOre}{}
+\newcommand{\totaleOre}{320}
 
 \newcommand{\obiettiviObbligatori}{
-	 \item \underline{\textit{O01}}: primo obiettivo;
-	 \item \underline{\textit{O02}}: secondo obiettivo;
-	 \item \underline{\textit{O03}}: terzo obiettivo;
+	 \item \underline{\textit{O01}}: Deve essere eseguito il refactoring dei componenti che gestiscono le annotazioni;
+	 \item \underline{\textit{O02}}: Deve essere rivista la collocazione e l'aspetto visivo delle toolbar per la navigazione del pdf con le varie annotazioni;
 	 
 }
 
 \newcommand{\obiettiviDesiderabili}{
-	 \item \underline{\textit{D01}}: primo obiettivo;
-	 \item \underline{\textit{D02}}: secondo obiettivo;
+	 \item \underline{\textit{D01}}: Deve essere aggiunta una shortcut per l'attivazione della funzionalità di annotazione del pdf;
 }
 
 \newcommand{\obiettiviFacoltativi}{
-	 \item \underline{\textit{F01}}: primo obiettivo;
-	 \item \underline{\textit{F02}}: secondo obiettivo;
-	 \item \underline{\textit{F03}}: terzo obiettivo;
+	 \item \underline{\textit{F01}}: devono essre presenti dei test a livello di frontend;
 }
